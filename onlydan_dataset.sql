@@ -228,7 +228,7 @@ values
 (20, 3, 1,50),
 (17, 3, 1, 51);
 
-INSERT INTO mytable
+INSERT INTO stock_changes
 (change_id,change_date,change_type,change_amount,remaining_stock) 
 VALUES 
 ('2022-04-24','Incoming',2,3),
