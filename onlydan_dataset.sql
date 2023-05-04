@@ -20,7 +20,8 @@ values
 ('NZ', 'New Zealand'),
 ('DK', 'Denmark'),
 ('NO', 'Norway'),
-('NL', 'Netherlands');
+('NL', 'Netherlands'),
+('RU', 'Russia');
 
 
 insert into public.shipping_statuses
