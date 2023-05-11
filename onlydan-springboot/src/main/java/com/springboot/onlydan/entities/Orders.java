@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class Orders {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer orderId;
+    private Long orderId;
 
     @OneToOne
     @JoinColumn(name = "payment_detail_id")

@@ -12,7 +12,7 @@ import javax.persistence.*;
 public class ShippingStatusesDTO {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer shippingStatusId;
+    private Long shippingStatusId;
 
     @Column
     private String statusName;

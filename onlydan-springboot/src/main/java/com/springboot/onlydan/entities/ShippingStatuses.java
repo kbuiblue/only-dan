@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class ShippingStatuses {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer shippingStatusId;
+    private Long shippingStatusId;
 
     @Column
     private String statusName;

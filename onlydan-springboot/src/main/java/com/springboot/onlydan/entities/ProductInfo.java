@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class ProductInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer productId;
+    private Long productId;
     @Column
     private Double stockPrice;
     @Column

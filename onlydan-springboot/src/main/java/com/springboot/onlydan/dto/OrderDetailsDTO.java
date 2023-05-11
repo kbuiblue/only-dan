@@ -19,6 +19,8 @@ public class OrderDetailsDTO {
 
     private Boolean isOnSale;
 
+    private Double salePercentage;
+
     private Integer productQuantity;
 
     private LocalDate orderDate;
