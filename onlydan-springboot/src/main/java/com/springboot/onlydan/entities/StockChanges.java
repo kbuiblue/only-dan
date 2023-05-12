@@ -14,7 +14,7 @@ import java.time.LocalDate;
 public class StockChanges {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer stockChangeId;
+    private Long stockChangeId;
 
     @Column
     private LocalDate changeDate;

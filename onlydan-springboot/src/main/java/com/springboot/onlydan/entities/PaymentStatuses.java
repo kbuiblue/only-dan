@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class PaymentStatuses {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer paymentStatusId;
+    private Long paymentStatusId;
     @Column
     private String statusName;
 }

@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class StockChanges {
+public class StockChangesDTO {
 
     private LocalDate changeDate;
 

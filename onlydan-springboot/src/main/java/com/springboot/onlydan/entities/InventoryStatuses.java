@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class InventoryStatuses {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer inventoryStatusId;
+    private Long inventoryStatusId;
 
     @Column
     private String statusName;

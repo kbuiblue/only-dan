@@ -13,7 +13,11 @@ import javax.persistence.*;
 public class Inventory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer inventoryId;
+    private Long inventoryId;
+
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    private ProductInfo productId;
 
     @ManyToOne
     @JoinColumn(name = "shipping_status_id")
