@@ -14,7 +14,7 @@ import java.time.LocalDate;
 public class OrderDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer orderDetailId;
+    private Long orderDetailId;
 
     @OneToOne
     @JoinColumn(name = "order_id")
@@ -29,6 +29,9 @@ public class OrderDetails {
 
     @Column
     private Boolean isOnSale;
+
+    @Column
+    private Double salePercentage;
 
     @Column
     private Integer productQuantity;

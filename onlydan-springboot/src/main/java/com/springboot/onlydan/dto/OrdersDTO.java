@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrdersDTO {
 
-    private Integer orderId;
+    private Long orderId;
 
     private PaymentDetailsDTO paymentDetailId;
 }
